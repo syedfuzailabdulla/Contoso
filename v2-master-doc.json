@@ -1,0 +1,18 @@
+{
+  "name": "Contoso Hackathon 2024 - Lab Guide",
+  "language": "English",
+  "files": [
+    {
+      "rawFilePath": "https://raw.githubusercontent.com/[your-org]/contoso-hackathon/main/lab-guide/lab-guide-intro.md",
+      "order": 1
+    },
+    {
+      "rawFilePath": "https://raw.githubusercontent.com/[your-org]/contoso-hackathon/main/lab-guide/lab-guide-ex1.md",
+      "order": 2
+    },
+    {
+      "rawFilePath": "https://raw.githubusercontent.com/[your-org]/contoso-hackathon/main/lab-guide/lab-guide-ex2.md",
+      "order": 3
+    }
+  ]
+}

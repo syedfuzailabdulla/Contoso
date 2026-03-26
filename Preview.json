@@ -1,0 +1,54 @@
+{
+  "name": "Contoso Hackathon 2024 - Lab Preview",
+  "language": "English",
+  "files": [
+    {
+      "rawFilePath": "page1",
+      "order": 1,
+      "content": {
+        "title": "🎉 Welcome to the Contoso Hackathon 2026!",
+        "subtitle": "Sponsored by Contoso | Powered by Microsoft Azure",
+        "sections": [
+          {
+            "heading": "👋 About This Hackathon",
+            "body": "Welcome, future cloud engineers! The Contoso Hackathon 2024 is a weekend-long team challenge where you and your teammates will use Microsoft Azure to deploy real cloud infrastructure using the Azure CLI. This is your chance to learn, collaborate, and compete — all in a live Azure environment built exclusively for you."
+          },
+          {
+            "heading": "🏆 Prizes Up for Grabs",
+            "body": "🥇 1ST PLACE — Grand Champion\n   • $1,000 Cash Prize\n   • Contoso Excellence Trophy\n   • Azure Certification Vouchers (1 Year) for all team members\n   • Fast-track interview with [Sponsor Name]\n\n🥈 2ND PLACE — Runner Up\n   • $600 Cash Prize\n   • Contoso Merit Trophy\n   • Azure Certification Vouchers (6 Months) for all team members\n   • Feature on [Sponsor Name] official social media\n\n🥉 3RD PLACE — Rising Star\n   • $300 Cash Prize\n   • Contoso Rising Star Trophy\n   • Azure Certification Vouchers (3 Months) for all team members\n\n🌟 Every team that completes the challenge receives a Certificate of Achievement!"
+          },
+          {
+            "heading": "👥 Team Structure",
+            "body": "• Teams consist of 3 to 4 members\n• Each team shares ONE dedicated Azure subscription\n• All teammates can see and manage each other's deployed resources\n• The first member to register becomes the Group Leader"
+          }
+        ]
+      }
+    },
+    {
+      "rawFilePath": "page2",
+      "order": 2,
+      "content": {
+        "title": "⚙️ What's Inside Your Lab Environment",
+        "subtitle": "Everything you need — pre-deployed and ready to go",
+        "sections": [
+          {
+            "heading": "✅ What Gets Auto-Deployed When Your Lab Launches",
+            "body": "The following resources are automatically provisioned the moment your team clicks Launch Lab — no manual setup required:\n\n🖥️  Windows 11 Virtual Machine\n   • Accessible directly from your browser — no RDP client needed\n   • Azure CLI is pre-installed and ready to use\n   • This is your team's primary workspace for the hackathon\n\n🔑  Service Principal (Auto-Created)\n   • Automatically generated inside your Azure subscription\n   • Credentials appear on your lab details page:\n       - Application (Client) ID\n       - Client Secret\n       - Tenant ID\n       - Subscription ID\n   • Use these credentials in your Azure CLI scripts to authenticate"
+          },
+          {
+            "heading": "🚀 Your Hackathon Challenge",
+            "body": "Your team's mission is to use the Azure CLI — authenticated through your Service Principal — to deploy Azure infrastructure as defined in the lab guide.\n\nExample of what you will be doing:\n\n   Step 1: Open PowerShell on your Windows 11 VM\n   Step 2: Log in using your Service Principal credentials\n           az login --service-principal \\\n                    --username <AppID> \\\n                    --password <ClientSecret> \\\n                    --tenant <TenantID>\n   Step 3: Deploy Azure resources using az commands\n   Step 4: Verify and manage your deployments as a team"
+          },
+          {
+            "heading": "⚠️ Important Rules to Remember",
+            "body": "⏱️  VM Uptime Limit\n   Your VM is active for HALF the total lab duration only.\n   Once the VM uptime limit is reached, it shuts down automatically.\n   Plan your CLI-heavy work within the active VM window.\n\n🔒  One Attempt Per Team\n   Once you click Launch Lab, your environment is LIVE.\n   There are NO resets and NO redeployments.\n   Make sure your entire team is ready before launching.\n\n👁️  Shared Environment\n   All teammates share the same subscription.\n   Resources deployed by one member are visible to everyone.\n   Communicate with your team before making changes!\n\n📋  Judging Criteria\n   • Completeness of infrastructure deployed\n   • Correct use of Service Principal authentication\n   • Quality and structure of CLI scripts\n   • Teamwork and collaboration"
+          },
+          {
+            "heading": "📞 Need Help?",
+            "body": "• Raise your hand for a proctor/mentor during the event\n• Check the Lab Guide for step-by-step instructions once your lab is live\n• Contact the Spectra Systems support team via the Help button on your lab page\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n        ✨ Ready to build? Click Register to claim\n             your team's lab environment! ✨\n          — Sponsored with 💙 by [Sponsor Name] —\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          }
+        ]
+      }
+    }
+  ]
+}

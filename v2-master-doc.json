@@ -3,15 +3,15 @@
   "language": "English",
   "files": [
     {
-      "rawFilePath": "https://raw.githubusercontent.com/[your-org]/contoso-hackathon/main/lab-guide/lab-guide-intro.md",
+      "rawFilePath": "https://raw.githubusercontent.com/syedfuzailabdulla/Contoso/refs/heads/main/v2-lab-guide-intro.md",
       "order": 1
     },
     {
-      "rawFilePath": "https://raw.githubusercontent.com/[your-org]/contoso-hackathon/main/lab-guide/lab-guide-ex1.md",
+      "rawFilePath": "https://raw.githubusercontent.com/syedfuzailabdulla/Contoso/refs/heads/main/v2-lab-guide-ex1.md",
       "order": 2
     },
     {
-      "rawFilePath": "https://raw.githubusercontent.com/[your-org]/contoso-hackathon/main/lab-guide/lab-guide-ex2.md",
+      "rawFilePath": "https://raw.githubusercontent.com/syedfuzailabdulla/Contoso/refs/heads/main/v2-lab-guide-ex2.md",
       "order": 3
     }
   ]

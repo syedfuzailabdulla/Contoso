@@ -60,10 +60,10 @@
       "name": "[variables('publicIPName')]",
       "location": "[parameters('location')]",
       "sku": {
-        "name": "Basic"
+        "name": "Standred"
       },
       "properties": {
-        "publicIPAllocationMethod": "Dynamic"
+        "publicIPAllocationMethod": "Static"
       }
     },
 
@@ -158,40 +158,3 @@
         }
       }
     },
-
-    {
-      "type": "Microsoft.DevTestLab/schedules",
-      "apiVersion": "2018-09-15",
-      "name": "shutdownSchedule",
-      "location": "[parameters('location')]",
-      "dependsOn": [
-        "[resourceId('Microsoft.Compute/virtualMachines', parameters('vmName'))]"
-      ],
-      "properties": {
-        "status": "Enabled",
-        "taskType": "ComputeVmShutdownTask",
-        "dailyRecurrence": {
-          "time": "1900"
-        },
-        "timeZoneId": "India Standard Time",
-        "targetResourceId": "[resourceId('Microsoft.Compute/virtualMachines', parameters('vmName'))]"
-      }
-    },
-
-    {
-      "type": "Microsoft.Resources/deploymentScripts",
-      "apiVersion": "2020-10-01",
-      "name": "createServicePrincipal",
-      "location": "[parameters('location')]",
-      "kind": "AzureCLI",
-      "properties": {
-        "azCliVersion": "2.52.0",
-        "scriptContent": "az ad sp create-for-rbac --name hackathon-sp",
-        "timeout": "PT10M",
-        "cleanupPreference": "OnSuccess",
-        "retentionInterval": "P1D"
-      }
-    }
-
-  ]
-}

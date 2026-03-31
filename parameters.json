@@ -1,0 +1,42 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "location": {
+      "value": "centralindia"
+    },
+    "vmName": {
+      "value": "MY01VM"
+    },
+    "adminUsername": {
+      "value": "azureuser"
+    },
+    "adminPassword": {
+      "value": "Password@1234"
+    },
+    "vmSize": {
+      "value": "Standard_B2ats_v2"
+    },
+    "vnetName": {
+      "value": "myVNet"
+    },
+    "subnetName": {
+      "value": "mySubnet"
+    },
+    "nsgName": {
+      "value": "myNSG"
+    },
+    "publicIpName": {
+      "value": "myPublicIP"
+    },
+    "nicName": {
+      "value": "myNIC"
+    },
+    "azureUserName": {
+      "value": "GET-AZUSER-UPN"
+    },
+    "azureUserPassword": {
+      "value": "GET-AZUSER-PASSWORD"
+    }
+  }
+}

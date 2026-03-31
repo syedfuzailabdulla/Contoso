@@ -154,8 +154,8 @@
           "adminUsername": "[parameters('adminUsername')]",
           "adminPassword": "[parameters('adminPassword')]",
           "windowsConfiguration": {
-            "enableAutomaticUpdates": true,
-            "provisionVMAgent": true
+            "enableAutomaticUpdates": false,
+            
           }
         },
         "storageProfile": {

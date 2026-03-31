@@ -57,14 +57,14 @@
       "properties": {
         "securityRules": [
           {
-            "name": "Allow-SSH",
+            "name": "Allow-RDP",
             "properties": {
               "priority": 1000,
               "direction": "Inbound",
               "access": "Allow",
               "protocol": "Tcp",
               "sourcePortRange": "*",
-              "destinationPortRange": "22",
+              "destinationPortRange": "3389",
               "sourceAddressPrefix": "*",
               "destinationAddressPrefix": "*"
             }

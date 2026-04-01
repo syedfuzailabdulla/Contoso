@@ -14,6 +14,9 @@
     "adminPassword": {
       "value": "Password@1234"
     },
+    "publicIpDnsLabel": {
+      "value": "my01vm-lab"
+    },
     "vmSize": {
       "value": "Standard_B2ats_v2"
     },
